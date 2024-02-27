@@ -5,9 +5,9 @@ from tensorflow.keras.preprocessing.image import load_img,img_to_array
 from tensorflow.keras.models import load_model
 import numpy as np
 import keras
-st.title("Python or Anaconda Predictor")
-st.header("Large Serpent Classifier")
-st.text("Upload an Image for of either serpent for  image classification as anaconda or python")
+st.title("THYDet")
+st.header("Ultrasound Thyroid Detector")
+st.text("Upload an Image.....")
      
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg","png","jpeg"])
 if uploaded_file is not None:
