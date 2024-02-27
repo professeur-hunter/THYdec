@@ -20,10 +20,10 @@ def teachable_machine_classification(img, weights_file):
     model = keras.models.load_model(weights_file)
 
     
-    data = np.ndarray(shape=(1, 384, 384, 3), dtype=np.float32)
+    data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
     image = img
   
-    size = (384, 384)
+    size = (224, 224)
     image = ImageOps.fit(image, size, Image.ANTIALIAS)
 
   
