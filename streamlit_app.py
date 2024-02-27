@@ -18,9 +18,19 @@ if uploaded_file is not None:
     st.write("Guess")
     label = teachable_machine_classification(image, 'resnet.h5')
     if label == 0:
-       st.write("It predicted Anaconda")
+       st.write("TIRAD1")
+    elif label == 1:
+       st.write("TIRAD2")
+    elif label == 2:
+       st.write("TIRAD3")
+    elif label == 3:
+       st.write("TIRAD4A")
+    elif label == 4:
+       st.write("TIRAD4B")
+    elif label == 5:
+       st.write("TIRAD4C")
     else:
-       st.write("It predicted Python")
+       st.write("TIRAD5")
    
         
         
