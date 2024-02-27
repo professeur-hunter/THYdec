@@ -1,6 +1,8 @@
-tensorflow
-keras
-opencv-python-headless
-numpy
-streamlit
-from tensorflow import keras
+tensorflow==2.12.0
+tensorflow-estimator==2.12.0
+tensorflow-io-gcs-filesystem==0.31.0
+numpy==1.23.5
+opencv-python==4.8.1.78
+Pillow==9.5.0
+streamlit==1.28.1
+pandas==2.0.0
