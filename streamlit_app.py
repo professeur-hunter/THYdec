@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image, ImageOps
 #from tensorflow.keras.preprocessing.image import load_img,img_to_array
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import numpy as np
 import keras
 st.title("THYDet")
@@ -9,7 +9,7 @@ st.header("Ultrasound Thyroid Detector")
 st.text("Upload an Image.....")
 
 from PIL import Image
-from tensorflow.keras.utils import load_img,img_to_array
+from keras.utils import load_img,img_to_array
 import numpy as np
 import keras
 from keras.models import load_model
