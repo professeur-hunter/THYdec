@@ -1,5 +1,5 @@
 import streamlit as st
-import tensorflow as tf
+import tensorflow
 from PIL import Image, ImageOps
 #from tensorflow.keras.preprocessing.image import load_img,img_to_array
 from tensorflow.keras.models import load_model
